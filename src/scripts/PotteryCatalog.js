@@ -23,7 +23,7 @@ const potteryObject = makePottery()
 // define a variable with the value of empty array to store pottery to be sold.
 
 const storePottery = [];
-// let potWeight = 30;
+
 
 export const toSellOrNotToSell = (potteryObject) => {
     // if the weight of the piece is greater than or equal to (>=) 6 then the function must add a price property of 40

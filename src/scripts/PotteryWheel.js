@@ -10,4 +10,11 @@ export const makePottery = (valShape, valWeight, valHeight) => {
     return makePotteryObject
 }
 
-// console.log(makePottery('oval', 2, 3));
+
+
+
+/*
+The function makePottery is being exported 
+makePottery has three parameters that are variables that can be assigned a value as needed.
+makePottery returns an object with shape weight and size where parameters within the array can be assigned values as needed.
+*/

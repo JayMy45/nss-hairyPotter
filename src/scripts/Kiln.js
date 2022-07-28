@@ -4,8 +4,8 @@ import { makePottery } from "./PotteryWheel.js";
 let potteryObject = makePottery()
 
 
-//declare variable for fireTemp
-let fireTemp = 3
+// //declare variable for fireTemp
+// let fireTemp = 3
 
 
 //define export function firePottery with two parameters
