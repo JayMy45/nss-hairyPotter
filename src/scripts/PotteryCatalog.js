@@ -15,8 +15,8 @@
 1. define and export a function named usePottery to return a copy of the array of sold items to be sold...
 */
 
-import { makePottery } from "./PotteryWheel.js";
-const potteryObject = makePottery()
+// import { makePottery } from "./PotteryWheel.js";
+// const potteryObject = makePottery()
 
 
 

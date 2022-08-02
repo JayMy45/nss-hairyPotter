@@ -17,22 +17,22 @@ let bowl = makePottery('Bowl', 5, 5)
 
 
 // Fire each piece of pottery in the kiln
-//********when invoking function parameters are (valShape, KilnTemperature)
+//********when invoking function parameters are (Object, KilnTemperature)
 //there no need to declare a variable to invoke the function as seen in the first one below...instead you can just invoke...
 let fireMug = firePottery(mug, 1901)
-firePottery(ornament, 2000)
-firePottery(platter, 5)
-firePottery(vase, 2200)
-firePottery(bowl, 1900)
+let ornamental = firePottery(ornament, 2000)
+let plattered = firePottery(platter, 5)
+let vased = firePottery(vase, 2200)
+let bowler = firePottery(bowl, 1900)
 
 // Determine which ones should be sold, and their price
 //*********when invoking function parameters are (whichever piece of pottery from the PotteryWheel above. ex. mug = makePottery('mug', 1, 17))
 //there no need to declare a variable to invoke the function as seen in the first one below...instead you can just invoke...
-let sellMugOrNot = toSellOrNotToSell(mug)
-toSellOrNotToSell(ornament)
-toSellOrNotToSell(platter)
-toSellOrNotToSell(vase)
-toSellOrNotToSell(bowl)
+let sellMugOrNot = toSellOrNotToSell(fireMug)
+toSellOrNotToSell(ornamental)
+toSellOrNotToSell(plattered)
+toSellOrNotToSell(vased)
+toSellOrNotToSell(bowler)
 
 // Invoke the component function that renders the HTML list
 //no need to declare a variable to call the functions as seen below (listD) you can directly invoke it in the parentHTMLElement.innerHTML...!
