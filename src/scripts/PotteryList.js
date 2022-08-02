@@ -28,7 +28,7 @@ export const PotteryList = () => {
 
 
   for (let listObject of storedPottery) {
-    potteryHTMLString += `<section class="pottery" id="pottery--${listObject.id - 2}">
+    potteryHTMLString += `<section class="pottery" id="pottery--${listObject.id}">
         <h2 class="pottery__shape">${listObject.shape}</h2>
         <div class="pottery__properties">
           Item weighs ${listObject.weight} grams and is ${listObject.height} cm in height</div>

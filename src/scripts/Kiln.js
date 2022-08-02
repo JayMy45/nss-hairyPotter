@@ -1,7 +1,7 @@
-import { makePottery } from "./PotteryWheel.js";
+// import { makePottery } from "./PotteryWheel.js";
 //import object array?
 //create variable to hold makePottery
-let potteryObject = makePottery()
+// let potteryObject = makePottery()
 
 
 // //declare variable for fireTemp
